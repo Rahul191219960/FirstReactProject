@@ -1,0 +1,11 @@
+D:\Projects\ngenv4\Dev\NgenV4.Data\bin\Debug\netcoreapp3.1\NgenV4.Data.deps.json
+D:\Projects\ngenv4\Dev\NgenV4.Data\bin\Debug\netcoreapp3.1\NgenV4.Data.dll
+D:\Projects\ngenv4\Dev\NgenV4.Data\bin\Debug\netcoreapp3.1\NgenV4.Data.pdb
+D:\Projects\ngenv4\Dev\NgenV4.Data\bin\Debug\netcoreapp3.1\NgenV4.Domain.dll
+D:\Projects\ngenv4\Dev\NgenV4.Data\bin\Debug\netcoreapp3.1\NgenV4.Domain.pdb
+D:\Projects\ngenv4\Dev\NgenV4.Data\obj\Debug\netcoreapp3.1\NgenV4.Data.csprojAssemblyReference.cache
+D:\Projects\ngenv4\Dev\NgenV4.Data\obj\Debug\netcoreapp3.1\NgenV4.Data.AssemblyInfoInputs.cache
+D:\Projects\ngenv4\Dev\NgenV4.Data\obj\Debug\netcoreapp3.1\NgenV4.Data.AssemblyInfo.cs
+D:\Projects\ngenv4\Dev\NgenV4.Data\obj\Debug\netcoreapp3.1\NgenV4.Data.csproj.CopyComplete
+D:\Projects\ngenv4\Dev\NgenV4.Data\obj\Debug\netcoreapp3.1\NgenV4.Data.dll
+D:\Projects\ngenv4\Dev\NgenV4.Data\obj\Debug\netcoreapp3.1\NgenV4.Data.pdb

@@ -1,0 +1,39 @@
+.table {
+  border-top: solid 1px #ddd;
+  border-bottom: solid 1px #ddd;
+}
+
+.list-tags > div {
+  border: solid 1px #ddd;
+  border-radius: 8px;
+  padding: 2px 7px;
+  margin: 0 5px 0 0;
+  width: auto !important;
+  display: inline-block;
+}
+
+.chartTable {
+  padding: 0 10px;
+}
+
+.chartTable .alignR {
+  text-align: right;
+}
+
+.chartTable .table {
+  text-align: left;
+}
+
+.chartTable .table th {
+  cursor: pointer;
+}
+
+.chartTable .table th:nth-child(2) {
+  width: 90px;
+}
+
+.chartTable .footer,
+.chartTable .footer:hover {
+  background-color: #fbfbfb;
+}
+/*# sourceMappingURL=ChartTable.css.map */

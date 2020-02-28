@@ -1,0 +1,19 @@
+.table {
+  border-top: solid 1px #ddd;
+  border-bottom: solid 1px #ddd;
+}
+
+.list-tags > div {
+  border: solid 1px #ddd;
+  border-radius: 8px;
+  padding: 2px 7px;
+  margin: 0 5px 0 0;
+  width: auto !important;
+  display: inline-block;
+}
+
+.err404 {
+  position: relative;
+  zzzbackground-color: blue;
+}
+/*# sourceMappingURL=PageNotFound.css.map */

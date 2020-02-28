@@ -1,0 +1,8 @@
+D:\Projects\ngenv4\Dev\NgenV4.ViewModel\bin\Debug\netcoreapp3.1\NgenV4.ViewModel.deps.json
+D:\Projects\ngenv4\Dev\NgenV4.ViewModel\bin\Debug\netcoreapp3.1\NgenV4.ViewModel.dll
+D:\Projects\ngenv4\Dev\NgenV4.ViewModel\bin\Debug\netcoreapp3.1\NgenV4.ViewModel.pdb
+D:\Projects\ngenv4\Dev\NgenV4.ViewModel\obj\Debug\netcoreapp3.1\NgenV4.ViewModel.csprojAssemblyReference.cache
+D:\Projects\ngenv4\Dev\NgenV4.ViewModel\obj\Debug\netcoreapp3.1\NgenV4.ViewModel.AssemblyInfoInputs.cache
+D:\Projects\ngenv4\Dev\NgenV4.ViewModel\obj\Debug\netcoreapp3.1\NgenV4.ViewModel.AssemblyInfo.cs
+D:\Projects\ngenv4\Dev\NgenV4.ViewModel\obj\Debug\netcoreapp3.1\NgenV4.ViewModel.dll
+D:\Projects\ngenv4\Dev\NgenV4.ViewModel\obj\Debug\netcoreapp3.1\NgenV4.ViewModel.pdb

@@ -1,0 +1,56 @@
+.comp {
+  width: 40%;
+}
+
+.demoLinks {
+  display: inline-block;
+  margin-right: 30px;
+  line-height: 26px;
+  margin-left: 10px;
+}
+
+.demoLinks > a {
+  display: block;
+  margin: 0 5px 4px;
+}
+
+.demoLinks > a > img {
+  margin-right: 10px;
+}
+
+.d-worlds {
+  padding-left: 10px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.d-worlds > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 10px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 10px 10px 10px 5px;
+  width: 30%;
+  min-width: 200px;
+}
+
+.d-worlds > div > h3 {
+  margin-top: 0;
+}
+
+.d-worlds > div > h3 > img {
+  margin-right: 8px;
+}
+
+.d-worlds > div > h3 > i {
+  position: relative;
+  top: 4px;
+  margin-right: 15px;
+}
+/*# sourceMappingURL=DemosList.css.map */

@@ -1,0 +1,70 @@
+.table {
+  border-top: solid 1px #ddd;
+  border-bottom: solid 1px #ddd;
+}
+
+.list-tags > div {
+  border: solid 1px #ddd;
+  border-radius: 8px;
+  padding: 2px 7px;
+  margin: 0 5px 0 0;
+  width: auto !important;
+  display: inline-block;
+}
+
+.panel-heading {
+  position: relative;
+}
+
+.panel-heading > .panel-title {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+.panel {
+  border-radius: 2px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.panel div.panel-header,
+.panel div.panel-footer {
+  background-color: #fbfbfb;
+}
+
+.footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 7px 10px;
+}
+
+.evo-panel-help {
+  margin-top: 5px;
+}
+
+.panel-default > .panel-heading {
+  background-color: #fbfbfb !important;
+}
+
+.push-down {
+  margin-top: auto;
+}
+/*# sourceMappingURL=Panel.css.map */

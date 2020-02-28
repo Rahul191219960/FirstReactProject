@@ -1,0 +1,139 @@
+@import "../variables";
+
+.TopBar {
+  background-color: $background-color-header;
+  box-shadow: 0 0 40px 0 rgba(82, 63, 105, 0.1);
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: row;
+  height: 35px;
+  border: 1px solid #e7e7e7;
+  color: #5e5e5e;
+  align-items: center;
+
+  > .views {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 0 0 auto;
+  }
+  .pos-right {
+    top: 4px;
+    right: 5px;
+    @media only screen and (max-width: 650px) {
+      display: none;
+    }
+  }
+  .navlinks {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .user-icon {
+    margin-left: auto;
+    width: 34px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em !important;
+
+    &:hover {
+      background-color: $base-color-primary;
+      color: #ffffff;
+      .settings-menu {
+        display: block;
+      }
+    }
+  }
+}
+
+.TopBarMobile-Hidden {
+  display: none;
+}
+
+.tbLogo {
+  max-height: 28px;
+}
+
+.menu-btn {
+  display: flex;
+  align-items: center;
+  padding: 0px 13px;
+  color: #444444;
+  font-size: 25px;
+}
+
+.menu-btn:hover {
+  color: $base-color-primary;
+  background-color: #eeeeee;
+}
+
+#menuBar {
+  transition: transform 0.3s;
+}
+
+.topbar-menu-btn {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 68px;
+}
+
+@media only screen and (max-width: 700px) {
+  .TopBar-Hidden {
+    display: none;
+  }
+
+  .TopBarMobile-Hidden {
+    display: flex;
+  }
+}
+
+.settings-menu {
+  font-size: 0.7em !important;
+  display: none;
+  z-index: 200;
+  position: absolute;
+  width: 200px;
+  background-color: #ffffff;
+  right: 2px;
+  top: 34px;
+  color: #5b5b5b !important;
+  box-shadow: 0 0 2px 0 rgb(165, 165, 165);
+
+  .user-info {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .user-img {
+      font-size: 2em;
+      padding: 10px;
+    }
+  }
+
+  .user-action-item {
+    width: 100%;
+    display: flex;
+    padding: 5px 10px;
+    color: #5b5b5b !important;
+
+    &:hover {
+      background-color: #dfdfdf;
+    }
+
+    .user-action-item-label {
+      padding: 0px 10px;
+      font-size: 0.9em;
+    }
+
+    .user-action-item-icon {
+      font-size: 0.85em;
+    }
+  }
+}

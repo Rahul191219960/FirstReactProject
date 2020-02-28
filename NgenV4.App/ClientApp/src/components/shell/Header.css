@@ -1,0 +1,94 @@
+.table {
+  border-top: solid 1px #ddd;
+  border-bottom: solid 1px #ddd;
+}
+
+.list-tags > div {
+  border: solid 1px #ddd;
+  border-radius: 8px;
+  padding: 2px 7px;
+  margin: 0 5px 0 0;
+  width: auto !important;
+  display: inline-block;
+}
+
+.evo-page-header {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: 5px 0 30px;
+}
+
+.evo-page-header .page-title {
+  width: 100%;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  white-space: nowrap;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}
+
+.evo-page-header .page-title .page-title-text {
+  font-size: 25px;
+}
+
+.evo-page-header .hIcons {
+  top: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: white;
+}
+
+.evo-page-header .hIcons > a {
+  display: inline-block;
+}
+
+.evo-page-header .hIcons a > .crud-icon > svg {
+  fill: #428bca;
+}
+
+.evo-page-header .hIcons a.active > .crud-icon > svg {
+  fill: black;
+}
+
+.evo-page-header .hIcons a:hover .crud-icon > svg {
+  fill: #0D47A1;
+}
+
+@media (max-width: 600px) {
+  .evo-page-header .hIcons {
+    display: none !important;
+  }
+}
+
+.evo-page-header .fakeLink {
+  display: inline-block;
+}
+
+.evo-page-header .fakeLink i > svg {
+  fill: #428bca;
+}
+
+@media (max-width: 600px) {
+  .evo-page-header .fakeLink {
+    display: none !important;
+  }
+}
+
+.evo-page-header .fakeLink:hover .crud-icon > svg {
+  fill: #0D47A1;
+}
+/*# sourceMappingURL=Header.css.map */

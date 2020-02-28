@@ -1,0 +1,344 @@
+@import "./components/variables";
+
+html {
+  height: 100%; // IE
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%; // IE
+  // height: 100%; // IE
+  font-size: $text-font-size;
+}
+p,
+legend {
+  font-size: 16px;
+}
+h1,
+h2,
+h3 {
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+h3 {
+  margin-bottom: 16px;
+}
+
+.App {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.loading-cf {
+  margin: 100px 20px 20px 20px;
+}
+.w-timestamp {
+  padding: 10px 20px;
+}
+
+/* TODO: for now here */
+
+.blue_title {
+  background-color: #b3e5fc;
+  color: white;
+  padding: 40px;
+}
+
+.black {
+  color: black !important;
+}
+.fakeLink {
+  cursor: pointer;
+}
+
+.mr10 {
+  margin-right: 10px;
+}
+
+.grey {
+  color: silver;
+}
+.navy {
+  color: navy;
+  font-weight: 300;
+}
+.clearer {
+  clear: both;
+}
+.pc50 {
+  width: 50%;
+}
+.pc100 {
+  width: 100%;
+}
+.ReactModal__Overlay {
+  z-index: 110;
+}
+
+.btn {
+  font-size: 16px;
+}
+
+.extlink:after {
+  content: " "
+    url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAVklEQVR4Xn3PgQkAMQhDUXfqTu7kTtkpd5RA8AInfArtQ2iRXFWT2QedAfttj2FsPIOE1eCOlEuoWWjgzYaB/IkeGOrxXhqB+uA9Bfcm0lAZuh+YIeAD+cAqSz4kCMUAAAAASUVORK5CYII=);
+}
+
+@media print {
+  // things to hide
+  .cf-buttons,
+  .evo-toolbar,
+  .evo-noprint {
+    display: none !important;
+  }
+}
+
+//CSS Overrides to make everything smaller -- by Vipin
+
+.control-label {
+  font-size: 0.75em !important;
+}
+
+.form-control {
+  font-size: 0.87em !important;
+  height: 1.8em !important;
+  padding: 3px 4px !important;
+  border-radius: 0px;
+}
+
+textarea.form-control {
+  height: unset !important;
+  max-height: unset !important;
+}
+
+select.form-control {
+  padding: 0px 0px !important;
+}
+
+.content-card-padding {
+  padding: $content-card-padding;
+}
+
+.page-content-wrapper-padding {
+  padding: $page-content-wrapper-padding;
+}
+
+.panel-title {
+  font-size: $panel-title !important;
+}
+
+.panel-heading {
+  padding: 4px 8px;
+}
+
+.pagination {
+  margin: 0px;
+  font-size: 0.7em;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+  padding: 0px 6px !important;
+}
+
+.clearer {
+  display: flex;
+  margin: 0px 0px 10px 0px;
+}
+
+.btn {
+  font-size: 0.9em !important;
+  padding: 4px 5px !important;
+}
+
+.evo-rdonly {
+  font-size: 0.95em !important;
+}
+
+.table > thead > tr > th {
+  border-bottom: none !important;
+}
+
+.table {
+  margin-bottom: 15px;
+}
+
+.css-yk16xz-control {
+  border-radius: 0px !important;
+  min-height: unset !important;
+  height: 1.59em !important;
+
+  .css-1okebmr-indicatorSeparator {
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+
+  .css-1wa3eu0-placeholder {
+    margin-left: 6px;
+    font-size: 0.95em !important;
+    margin-top: -2px !important;
+  }
+
+  .css-1hwfws3 {
+    padding: 0px !important;
+  }
+
+  .css-tlfecz-indicatorContainer {
+    padding: unset;
+  }
+
+  .css-b8ldur-Input {
+    margin: unset;
+    padding: unset;
+    margin-left: 5px;
+  }
+
+  .css-1hwfws3 {
+    margin-top: 1px;
+  }
+
+  .css-1rhbuit-multiValue {
+    margin: -3px 3px 0px 1px;
+    border-radius: unset;
+    height: 23px;
+  }
+
+  .css-12jo7m5 {
+    padding: unset;
+    margin: 3px 2px 2px 5px;
+  }
+
+  .css-xb97g8 {
+    margin-top: 2px;
+    border-radius: unset;
+  }
+}
+
+.css-1pahdxg-control:hover {
+  border-radius: unset;
+  box-shadow: unset;
+  border-color: unset !important;
+}
+
+.css-1pahdxg-control {
+  border-radius: unset !important;
+  box-shadow: unset !important;
+  border-color: unset !important;
+  height: 1.59em !important;
+  min-height: unset !important;
+
+  .css-1okebmr-indicatorSeparator {
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+
+  .css-1wa3eu0-placeholder {
+    margin-left: 6px;
+    font-size: 0.95em !important;
+    margin-top: -2px !important;
+  }
+
+  .css-1hwfws3 {
+    padding: 0px !important;
+  }
+
+  .css-1gtu0rj-indicatorContainer {
+    padding: unset;
+  }
+
+  .css-b8ldur-Input {
+    margin: unset;
+    padding: unset;
+    margin-left: 5px;
+  }
+
+  .css-1hwfws3 {
+    margin-top: 1px;
+  }
+
+  .css-1rhbuit-multiValue {
+    margin: -3px 3px 0px 1px;
+    border-radius: unset;
+    height: 23px;
+  }
+
+  .css-12jo7m5 {
+    padding: unset;
+    margin: 3px 2px 2px 5px;
+  }
+
+  .css-xb97g8 {
+    margin-top: 2px;
+    border-radius: unset;
+  }
+}
+
+.cf-fld > span {
+  font-size: 0.95em !important;
+}
+
+.radiobutton-span {
+  font-size: 0.95em !important;
+}
+
+.css-1uccc91-singleValue {
+  margin-left: 5px !important;
+  font-size: 0.95em;
+  margin-top: -1px !important;
+}
+
+.cf-page-header {
+  min-height: 40px;
+}
+
+.input-group-addon {
+  padding: 0px 6px !important;
+}
+
+.evo-fld-invalid {
+  padding: unset !important;
+  font-size: 0.8em !important;
+}
+
+//Date Picker CSS
+
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px solid;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  margin-top: -3px;
+}
+
+.opuscapita_date-input__variants-btn {
+  border-radius: 0px;
+  height: 2.03em;
+}
+
+.opuscapita_date-input-field__input {
+  font-size: 0.95em !important;
+}
+
+.opuscapita_input-addon-button {
+  margin-top: -1px;
+  margin-right: -8px;
+}
+
+.opuscapita_date-input {
+  padding: unset !important;
+}
+
+.opuscapita_date-input-field{
+  height: 2.09em !important;
+  z-index: unset !important;
+}
+
+.opuscapita_date-input__reset-btn {
+  z-index: unset !important;
+  padding-top: 3px;
+}

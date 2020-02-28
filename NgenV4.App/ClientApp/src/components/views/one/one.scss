@@ -1,0 +1,138 @@
+@import '../../variables';
+
+/* --- panels & tabs --- */
+.cf-pnls{
+  @include flex-holder();
+
+  .panel{
+    height: calc( 100% - 20px );
+  }
+  .evol-pnl {
+    @include flex-item();
+    padding-left: 10px !important;
+    min-width: 150px;
+    margin-bottom: -10px;
+    .cf-field-label > label > svg {
+      //display: none;
+      opacity: 0;
+      transition: opacity $ease-time ease 0;
+    }
+    &:hover {
+      .cf-field-label > label > svg {
+        //display: inline-block;
+        opacity: 1;
+        transition: opacity $ease-time ease $delay-time;
+      }
+    }
+    fieldset {
+      padding: 0;
+    }
+    .table {
+      //margin-bottom: 0;
+      img {
+        max-height: 60px;
+        padding: 0;
+      }
+      .evol-money{
+        //TODO: better fix
+        width: 200px;
+      }
+    }
+  }
+
+}
+
+/* --- fields --- */
+.cf-fset{
+    @include flex-holder();
+    padding: 8px 8px 8px 0px;
+    //input[type="checkbox"]{
+    //    height: 30px;
+    //}
+}
+.cf-buttons{
+  clear: both;
+  padding: 8px;
+
+  > button, 
+  > a {
+    // margin: 0px 8px;
+    margin: 0px 8px 0px 0px;
+    > i {
+      // margin-right: 5px;
+    }
+  }
+}
+
+.evol-title-toggle{
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  color: grey;
+  &:hover{
+    color: $color-icon-hover
+  }
+}
+
+/* bootstrap customizations*/
+.table > thead > tr > th{
+  font-weight: $weight-label;
+  background-color: #fbfbfb;
+}
+label{
+  font-weight: $weight-label;
+  margin-bottom: 2px;
+}
+
+.evo-fld-help{
+  background: #FFF8E1; // amber-50
+  border: solid 1px #FFE082; // amber-200
+  border-left: solid 4px #FFE082; // amber-200
+}
+.evo-fld-invalid{
+  background: #FBE9E7;//Deep Orange 50
+  border: solid 1px #FF8A65; //Deep Orange 300
+  border-left: solid 4px #FF8A65; //Deep Orange 300
+}
+
+.evo-fld-help,
+.evo-fld-invalid{
+  color: #737373;
+  display: inline-block;
+  padding: 4px 5px 4px 10px;
+  @include border-radius(2px);
+  font-style: italic;
+  margin: 5px 5px 5px 0;
+  clear: both;
+}
+
+.cf-one-edit,
+.evo-one-browse,
+.evo-one-wiz{
+    margin-left:-10px;
+}
+
+.evol-pl-nodata{
+  text-align: center;
+
+  [data-id="bPlus"]{
+    margin-left:10px;
+    cursor: pointer;
+  }
+}
+
+#isDirty [data-id="nosave"]{
+  float: left;
+}
+
+.evo-color-box{
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border: $border;
+  span{
+    margin-left: 24px;
+  }
+}
+

@@ -1,0 +1,5 @@
+{
+    "ReadOneCommand": "SELECT * FROM Users AS C WHERE C.id=@SNo",
+    "DeleteCommand": "DELETE FROM Users WHERE id = @Id",
+    "ReadAllCommand": "Select * from Users"
+  }

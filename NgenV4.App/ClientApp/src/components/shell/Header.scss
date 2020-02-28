@@ -1,0 +1,62 @@
+@import "../variables";
+
+.cf-page-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  .page-title {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    // @include ellipsis();
+
+    .page-title-text {
+      font-size: 1.12em;
+    }
+  }
+  .hIcons {
+    // position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: $background-color;
+    > a {
+      display: inline-block;
+    }
+    a > .crud-icon > svg {
+      fill: $color-icon;
+    }
+    a.active > .crud-icon > svg {
+      fill: black;
+    }
+    a:hover {
+      .crud-icon > svg {
+        fill: $color-icon-hover;
+      }
+    }
+
+    @media (max-width: 600px) {
+      display: none !important;
+    }
+  }
+
+  .fakeLink {
+    display: inline-block;
+    i > svg {
+      fill: $color-icon;
+    }
+
+    @media (max-width: 600px) {
+      display: none !important;
+    }
+  }
+
+  .fakeLink:hover {
+    .crud-icon > svg {
+      fill: $color-icon-hover;
+    }
+  }
+}

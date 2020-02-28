@@ -1,0 +1,9 @@
+﻿{
+  "InsertCommand": "INSERT INTO dbo.test(lastname,firstname) VALUES(@lastname, @firstname)",
+  "ReadOneCommand": "SELECT *,(select label,value from EmployeeCity Where EmployeeSNo=@SNo FOR JSON PATH) as city FROM Employee AS C WHERE C.id=@SNo FOR JSON AUTO",
+  "UpdateCommand": "UPDATE Employee SET BookName = @BookName, ISBN = @ISBN WHERE ID = @ID",
+  "DeleteCommand": "DELETE FROM Employee WHERE ID = @Id",
+  "DeleteCityCommand": "DELETE FROM Employeecity WHERE EmployeeSNo = @EmployeeSNo",
+  "ReadAllCommand": "DECLARE @fullCount INT SELECT @fullCount= COUNT(c.id) FROM dbo.contact AS c INNER JOIN dbo.contact_category AS cc ON cc.SNo=c.category_id SELECT c.id, c.lastname, c.firstname, c.company, c.email, c.category_id AS category, cc.Catagory_name AS category_txt, c.c_date, c.u_date, @fullCount AS _full_count FROM dbo.contact AS c INNER JOIN dbo.contact_category AS cc ON cc.SNo=c.category_id ORDER BY c.lastname OFFSET @PageSize * (@PageNo) ROWS FETCH NEXT @PageSize ROWS ONLY;",
+  "ReadAllSample": "Select * from Employee"
+}

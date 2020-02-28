@@ -1,0 +1,9 @@
+﻿{
+
+  "InsertCommand": "INSERT INTO dbo.test(lastname,firstname) VALUES(@lastname, @firstname)",
+  "ReadOneCommand": "SELECT * FROM contact AS C WHERE C.id=@SNo",
+  "UpdateCommand": "UPDATE Books SET BookName = @BookName, ISBN = @ISBN WHERE ID = @ID",
+  "DeleteCommand": "DELETE FROM Books WHERE ID = @Id",
+  "ReadAllCommand": "DECLARE @fullCount INT; SELECT @fullCount=COUNT(c.id) FROM dbo.contact AS c SELECT c.id, c.lastname, c.firstname, c.company, c.email, c.category_id AS category, '' AS category_txt, c.c_date, c.u_date, @fullCount AS _full_count FROM dbo.contact AS c ORDER BY c.lastname OFFSET @PageSize *(@PageNo)ROWS FETCH NEXT @PageSize ROWS ONLY;",
+  "ReadAllSample": "Select * from dbo.Sample"
+}

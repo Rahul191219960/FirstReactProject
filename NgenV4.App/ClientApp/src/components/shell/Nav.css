@@ -1,0 +1,226 @@
+.table {
+  border-top: solid 1px #ddd;
+  border-bottom: solid 1px #ddd;
+}
+
+.list-tags > div {
+  border: solid 1px #ddd;
+  border-radius: 8px;
+  padding: 2px 7px;
+  margin: 0 5px 0 0;
+  width: auto !important;
+  display: inline-block;
+}
+
+.Nav {
+  z-index: 70;
+  font-family: Droid,Lato,'Helvetica Neue',Arial,Helvetica;
+  position: fixed;
+  left: 0;
+  top: 50px;
+  width: 170px;
+  height: 100%;
+  height: calc(100% - 40px);
+  color: #455A64;
+  padding-top: 12px;
+  border-right: 1px solid #e0e0e0;
+  background-color: #eee;
+  overflow: hidden;
+  -webkit-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -moz-user-select: none;
+}
+
+.Nav:hover {
+  overflow-y: auto;
+}
+
+.Nav .demos {
+  margin-left: 20px;
+}
+
+.Nav a {
+  text-decoration: none;
+}
+
+.Nav a.active {
+  color: black;
+  text-decoration: none;
+}
+
+.Nav div {
+  line-height: 25px;
+  padding: 7px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.Nav div > i {
+  position: relative;
+  top: 2px;
+}
+
+.Nav > ul > li > div > img {
+  position: relative;
+  top: -2px;
+  margin-right: 8px;
+  width: 20px;
+  height: 20px;
+}
+
+.Nav ul {
+  list-style-type: none;
+  margin-bottom: 12px;
+  padding: 0;
+}
+
+.Nav li {
+  position: relative;
+  font-weight: normal;
+  font-size: 14px;
+  padding: 5px 3px;
+  margin: 0 0 4px 0;
+}
+
+.Nav > ul > li > ul {
+  border-left: 3px solid #eee;
+}
+
+.Nav > ul > li {
+  border-left: solid 4px #eee;
+  font-size: 16px;
+  margin: 0 0 10px 0;
+  padding: 0;
+  /*
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		*/
+}
+
+.Nav .mIcons {
+  text-align: right;
+  width: 0;
+  overflow: hidden;
+  -webkit-transition: width 0.2s ease 0s;
+  transition: width 0.2s ease 0s;
+  position: absolute;
+  top: 5px;
+  right: -1px;
+  height: 20px;
+  font-size: 12px;
+  padding: 0;
+  z-index: 100;
+}
+
+.Nav .mIcons > a {
+  display: inline-block;
+}
+
+.Nav .mIcons > a:hover > svg {
+  fill: #0D47A1;
+}
+
+.Nav .mIcons > a > svg {
+  fill: #428bca;
+  height: 16px;
+  width: 16px;
+  margin: 0 2px;
+}
+
+.Nav .active-li > div {
+  background-color: #f0f0f0;
+}
+
+.Nav i {
+  color: #455A64;
+  font-size: 16px;
+  margin-right: 12px;
+  top: -2px;
+}
+
+.Nav i.link {
+  margin-left: 5px;
+}
+
+.Nav a:hover {
+  color: #0D47A1;
+}
+
+.Nav .footLinks {
+  margin: 30px 10px 10px 20px;
+  padding: 10px 10px 10px 0;
+}
+
+.Nav .footLinks a {
+  font-weight: 400;
+}
+
+#afterNav {
+  height: 0;
+  width: 0;
+}
+
+.navButtonHolder {
+  margin: 0;
+  min-width: 170px;
+}
+
+.navButton {
+  padding: 10px 2px 0 !important;
+  text-align: center;
+  min-height: 52px;
+  /* width: 12em; */
+}
+
+.navInfo {
+  padding: 5px 0;
+}
+
+.txtGrey {
+  color: grey;
+}
+
+/* skip nav #508 */
+a.skipNav {
+  left: -800px;
+  position: absolute;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.nav-l2 > li {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 5px 0 5px 5px;
+}
+
+.nav-l2 > li > a {
+  padding: 5px;
+}
+
+.nav-l2 > li > a.ev-actions {
+  display: inline-block;
+  max-width: 90px;
+}
+
+.nav-l2 > li:hover, .nav-l2 > li.active {
+  background-color: white;
+}
+
+.nav-l2 > li:hover > .mIcons, .nav-l2 > li.active > .mIcons {
+  display: inline-block;
+  width: 65px;
+  -webkit-transition: width 0.2s ease 0.6s;
+  transition: width 0.2s ease 0.6s;
+}
+
+.nav-l2 > li:hover > .mIcons > a:hover, .nav-l2 > li.active > .mIcons > a:hover {
+  color: #0D47A1;
+}
+/*# sourceMappingURL=Nav.css.map */

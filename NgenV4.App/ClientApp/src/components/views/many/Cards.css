@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap");
+.table {
+  border-top: solid 1px #ddd;
+  border-bottom: solid 1px #ddd;
+}
+
+.list-tags > div {
+  border: solid 1px #ddd;
+  border-radius: 8px;
+  padding: 2px 7px;
+  margin: 0 5px 0 0;
+  width: auto !important;
+  display: inline-block;
+}
+
+.cf-cards-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.cf-card-panel {
+  margin: 10px;
+  font-family: "Poppins", sans-serif !important;
+  width: 30%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 8px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cf-card-panel .cf-panel-header-container {
+  background-color: #5D78FF;
+}
+
+.cf-card-panel .cf-panel-header-container header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 15px;
+}
+
+.cf-card-panel .cf-panel-header-container header a {
+  color: white !important;
+}
+
+.cf-card-panel .cf-panel-data-container {
+  padding: 15px;
+}
+
+.padding-right-10 {
+  padding-right: 10px;
+}
+
+.flex-send-right {
+  margin-left: auto;
+}
+
+.cf-panel-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+.cf-panel-header .card-actions {
+  margin-left: auto;
+}
+
+.card-item-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.card-item-row .card-item-row-label {
+  width: 38%;
+}
+
+.card-item-row .card-item-row-value {
+  width: 62%;
+  white-space: nowrap;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}
+/*# sourceMappingURL=Cards.css.map */

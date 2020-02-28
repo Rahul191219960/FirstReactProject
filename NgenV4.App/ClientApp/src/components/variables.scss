@@ -1,0 +1,129 @@
+//Centent card css
+$content-card-padding: 5px 6px;
+$page-content-wrapper-padding: 5px 10px;
+$panel-title: 1.12em;
+
+//Base Colors - by Vipin
+$base-color-primary: #49afcd;
+$background-color-header: #fbfbfb;
+$menu-container-bg: #1e1e2d;
+$menu-container-bg-dark: #1a1a27;
+$zen-category-header: #4c4e6f;
+$zen-label-color-inactive: #a2a3b7;
+$zen-label-color-active: #ffffff;
+$sidenav-width: 256px;
+$partial-sidebar-width: 70px;
+$page-content-bg: #f1f2f7;
+$btn-color-primary: #5D78FF;
+$danger-red:#ca0000;
+
+$text-font-size: 16px;
+$background-color: white;
+$almostwhite-color: #f0f0f0;
+$almostblack-color: #0d0d0d;
+$grey-color: silver;
+$bgcolor-header: #fbfbfb;
+// base
+$color-text: $almostblack-color;
+$color-label: grey;
+$color-title: #428bca;
+$color-border: #ddd;
+$color-border-hover: silver;
+$color-disabled:silver;
+$color-panel: #f7f7f7;
+$bgcolor-panel-header: $bgcolor-header;
+$bgcolor-panel-footer: $bgcolor-header;
+
+$color-blue1: #259DCB;
+$color-red: #b94a48;
+
+$border: solid 1px $color-border;
+
+// responsive design
+$screen1: 500px;
+$screen2: 900px;
+
+// golden ratio
+$golden-ratio-big: 62%;
+$golden-ratio-small: 36%;
+
+// top nav bar including toolbar
+$color-nav: #BBDEFB; //#23527c;//#FFE0B2;
+$color-nav-hover: white; //#337ab7; //#E0F7FA;
+$color-nav-active: #E0F7FA;
+$color-icon-hover: #0D47A1;
+$color-icon: #428bca;
+$ease-time: 0.2s;
+$delay-time: 0.3s;
+$delay-time2: 0.6s;
+
+$toolbar-background-color: #fbfbfb;
+$toolbar-border-color: #bce8f1;
+
+$field-h-spacing: 16px;
+
+// labels
+$weight-label: 500;
+
+// page footer
+$color-text-footer: #607D8B;
+$bgcolor-text-footer: #f8f8f8;
+
+// mixins
+@mixin border-radius($r){
+	border-radius: $r;
+	-moz-border-radius: $r;
+	-webkit-border-radius: $r;
+}
+@mixin flex-holder(){
+	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;      /* TWEENER - IE 10 */
+	display: -webkit-flex;     /* NEW - Chrome */
+	display: flex;
+	flex-wrap: wrap;
+}
+@mixin flex-item(){
+	box-sizing: border-box;
+	flex-grow: 1;
+}
+@mixin ellipsis(){
+  white-space: nowrap;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}
+
+
+@mixin icons-actions{
+	svg{
+		fill: $color-icon;
+		cursor: pointer;
+		&:hover{
+			fill: $color-icon-hover;
+		}
+		&.active{
+			fill: black;
+			cursor: default;
+		}
+	}
+	&.sort{
+		position: absolute;
+		top: 30px;
+		right: 5px;
+	}
+}
+.table {
+	border-top: $border;
+	border-bottom: $border;
+}
+
+.list-tags{
+	> div {
+	  border: $border;
+	  border-radius: 8px;
+	  padding: 2px 7px;
+	  margin: 0 5px 0 0;
+	  width: auto !important;
+	  display: inline-block;
+	}
+  }

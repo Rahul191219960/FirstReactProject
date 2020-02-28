@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap");
+.table {
+  border-top: solid 1px #ddd;
+  border-bottom: solid 1px #ddd;
+}
+
+.list-tags > div {
+  border: solid 1px #ddd;
+  border-radius: 8px;
+  padding: 2px 7px;
+  margin: 0 5px 0 0;
+  width: auto !important;
+  display: inline-block;
+}
+
+.cf-list-container {
+  overflow-x: auto;
+  font-family: "Poppins", sans-serif !important;
+  font-size: 14px;
+}
+
+.cf-list-container .cf-many-list .alignR {
+  text-align: right;
+}
+
+.cf-list-container .cf-many-list > div {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.cf-list-container .cf-many-list .table {
+  margin-bottom: 0;
+}
+
+.cf-list-container .cf-many-list .table th {
+  position: relative;
+  white-space: nowrap;
+  background-color: #fbfbfb;
+}
+
+.cf-list-container .cf-many-list .table th .glyphicon-arrow-down,
+.cf-list-container .cf-many-list .table th .glyphicon-arrow-up {
+  color: silver;
+}
+
+.cf-list-container .cf-many-list .table td {
+  position: relative;
+}
+
+.cf-list-container .cf-many-list .table img {
+  max-height: 60px;
+  padding: 0;
+}
+
+.cf-list-container .cf-many-list .main th {
+  cursor: pointer;
+}
+
+.cf-list-container .cf-many-list .main th:hover {
+  color: #0D47A1;
+}
+
+.cf-list-container .cf-many-list .nobr {
+  white-space: nowrap;
+  max-width: 500px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cf-list-container .list-new {
+  border-top: solid 1px #ddd;
+  padding: 20px 10px;
+}
+
+.cf-list-container .nodata {
+  padding: 20px;
+}
+
+.arrow-icon-container {
+  width: 50px;
+  height: 100%;
+  margin-left: 10px;
+}
+/*# sourceMappingURL=List.css.map */

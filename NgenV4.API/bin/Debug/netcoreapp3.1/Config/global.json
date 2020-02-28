@@ -1,0 +1,5 @@
+﻿{
+  "GlobalMessage": "enGlobalMessges.json",
+  "AppMessage": "enAppMessges.json",
+  "SqlStatement": "sql.json"
+}

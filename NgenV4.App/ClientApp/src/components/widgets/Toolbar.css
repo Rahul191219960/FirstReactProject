@@ -1,0 +1,74 @@
+/*
+  evolutility-ui-react : toolbar
+*/
+.table {
+  border-top: solid 1px #ddd;
+  border-bottom: solid 1px #ddd;
+}
+
+.list-tags > div {
+  border: solid 1px #ddd;
+  border-radius: 8px;
+  padding: 2px 7px;
+  margin: 0 5px 0 0;
+  width: auto !important;
+  display: inline-block;
+}
+
+.evo-toolbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 110;
+}
+
+.evo-toolbar .crud-icon > div {
+  white-space: nowrap;
+}
+
+.evo-toolbar .searchbox {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* bootstrap override */
+.dropdown-menu > li > a {
+  padding: 3px 10px;
+}
+
+.evo-filter-on {
+  background-color: #e0f2f1;
+}
+
+.evo-nav-pills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+@media only screen and (max-width: 780px) {
+  .evo-nav-pills > li > .fakeLink > span,
+  .evo-nav-pills > li > a > span {
+    display: none;
+  }
+}
+
+.input-group {
+  position: unset;
+}
+/*# sourceMappingURL=Toolbar.css.map */

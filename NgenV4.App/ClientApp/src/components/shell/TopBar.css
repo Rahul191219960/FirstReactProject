@@ -1,0 +1,129 @@
+.table {
+  border-top: solid 1px #ddd;
+  border-bottom: solid 1px #ddd;
+}
+
+.list-tags > div {
+  border: solid 1px #ddd;
+  border-radius: 8px;
+  padding: 2px 7px;
+  margin: 0 5px 0 0;
+  width: auto !important;
+  display: inline-block;
+}
+
+.TopBar {
+  background-color: #fbfbfb;
+  -webkit-box-shadow: 0 0 40px 0 rgba(82, 63, 105, 0.1);
+          box-shadow: 0 0 40px 0 rgba(82, 63, 105, 0.1);
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 68px;
+  border: 1px solid #e7e7e7;
+  color: #5e5e5e;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.TopBar > .views {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 0 0 auto;
+}
+
+.TopBar .pos-right {
+  top: 4px;
+  right: 5px;
+}
+
+@media only screen and (max-width: 650px) {
+  .TopBar .pos-right {
+    display: none;
+  }
+}
+
+.TopBar .navlinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.TopBarMobile-Hidden {
+  display: none;
+}
+
+.tbLogo {
+  max-height: 45px;
+}
+
+.menu-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 13px;
+  color: #444444;
+  font-size: 25px;
+}
+
+.menu-btn:hover {
+  color: #49afcd;
+  background-color: #eeeeee;
+}
+
+#menuBar {
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.topbar-menu-btn {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 68px;
+}
+
+@media only screen and (max-width: 700px) {
+  .TopBar-Hidden {
+    display: none;
+  }
+  .TopBarMobile-Hidden {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+/*# sourceMappingURL=TopBar.css.map */

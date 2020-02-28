@@ -1,0 +1,143 @@
+//Filter CSS
+.filter-container {
+  margin-bottom: 5px;
+  overflow-x: auto;
+}
+
+.filter-table-container {
+  width: 100%;
+  height: fit-content;
+
+  td,
+  th {
+    padding-left: 10px;
+  }
+
+  th {
+    font-size: 0.8em;
+  }
+}
+
+.add-row-btn-container {
+  width: fit-content;
+  height: fit-content;
+  padding: 5px 10px;
+}
+
+.green {
+  color: forestgreen;
+}
+
+.red {
+  color: red;
+}
+
+.add-row-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 0.8em;
+
+  &:hover {
+    background-color: #deecf9;
+  }
+
+  i {
+    font-size: 15px;
+    font-size: 14px;
+    margin-top: -3px;
+  }
+
+  span {
+    padding-left: 10px;
+  }
+}
+
+.add-row-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+
+.empty-group {
+  height: 100%;
+  width: 50px;
+}
+
+.colored-group {
+  background-color: crimson;
+  width: 50px;
+  height: 100%;
+}
+
+.group-selection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 34px;
+}
+
+.start {
+  border-top: 1px solid #c8c8c8;
+  border-left: 1px solid #c8c8c8;
+}
+
+.mid {
+  border-left: 1px solid #c8c8c8;
+}
+
+.end {
+  border-left: 1px solid #c8c8c8;
+  border-bottom: 1px solid #c8c8c8;
+}
+
+.group-trash-icon {
+  display: flex;
+  color: #7e7e7e;
+  margin-top: 5px;
+  margin-left: 5px;
+  width: fit-content;
+  height: fit-content;
+  font-size: 14px;
+  cursor: pointer;
+
+  &:hover {
+      color: rgb(221, 0, 0);
+  }
+}
+
+.select-group-operation {
+  margin: 3px;
+  width: 42px;
+  padding: 3px;
+  font-size: 11px;
+  border: 1px solid #ccc;
+  height: 25px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(./chevron-down-solid.svg) 85% / 15% no-repeat #fff;
+  border-radius: 4px;
+  outline: none;
+}
+
+.make-group {
+  cursor: pointer;
+  &:hover {
+    color: forestgreen;
+  }
+}
+
+.delete-row {
+    cursor: pointer;
+}
+
+.cf-search-field {
+  padding-left: 0px !important;
+}
+
+.search-divider {
+  margin: 0px 0px 10px 0px;
+}

@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap");
+@import "../variables";
+
+.zen-container {
+  ul {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  font-family: "Poppins", sans-serif !important;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  width: $sidenav-width;
+  position: fixed;
+  height: 100%;
+  background-color: $menu-container-bg;
+  transition: all 0.3s;
+  z-index: 322;
+
+  .zen-menu-header {
+    background-color: $menu-container-bg-dark;
+    display: flex;
+    height: 34px;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 14px;
+
+    .zen-brand {
+      .zen-menu-title {
+        font-size: 18px;
+        font-weight: 600;
+      }
+    }
+
+    .zen-tools {
+      margin: 0px 0px 0px auto;
+      padding: 0px 10px;
+      transition: transform 0.3s ease-in-out;
+      transform: rotate(0deg);
+    }
+  }
+
+  .zen-navigation-container {
+    margin-top: 25px;
+    width: 100%;
+
+    a {
+      text-decoration: none;
+    }
+
+    .zen-category {
+      .zen-category-header {
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.3px;
+        margin: 20px 0 0 0;
+        padding: 0 25px;
+        font-size: 12px;
+        color: $zen-category-header;
+        min-height: 40px;
+        display: flex;
+        align-items: center;
+
+        .zen-menu-header-icon {
+          min-width: 20px;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+
+      .zen-category-content {
+        width: inherit;
+
+        .zen-menu-item {
+          cursor: pointer;
+          font-size: 13px;
+          padding: 0 25px;
+          min-height: 40px;
+          width: inherit;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          color: $zen-label-color-inactive;
+
+          .zen-menu-item-icon {
+            min-width: 20px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .zen-menu-item-label {
+            padding-left: 10px;
+            width: fit-content;
+          }
+
+          .zen-menu-item-arrow {
+            margin: 0px 0px 0px auto;
+            font-size: 9px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.partial-sidebar {
+  transition: width 0.3s;
+  width: $partial-sidebar-width;
+}
+
+.hidden {
+  display: none !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.rotate-180 {
+  transition: transform 0.3s ease-in-out;
+  transform: rotate(-180deg) !important;
+}
+
+.invisible {
+  width: 0px !important;
+  overflow: hidden;
+  transition: all 0.3s;
+  min-width: 0px !important;
+}
+
+.zen-hoverable {
+  width: inherit;
+
+  :hover {
+    color: $zen-label-color-active !important;
+    background-color: $menu-container-bg-dark !important;
+  }
+}
+
+.simplebar-scrollbar:before {
+  width: 4px;
+  background: #637099 !important;
+}
+
+.partial-sidebar {
+  .zen-category-content > ul {
+    display: none;
+  }
+}
+
+.rotate-0-deg {
+  transform: rotate(0deg);
+}
+
+.rotate-90-deg {
+  transform: rotate(90deg);
+}
+
+.slideUp {
+  // display: none;
+  height: 0 !important;
+  transition: all 0.3s !important;
+}
+
+.inner {
+  overflow: hidden;
+  height: 0 !important;
+  transition: all 0.3s !important;
+}
+
+.show-menu {
+  height: auto !important;
+  transition: all 0.3s !important;
+}
+
+.page-content-wrapper {
+  padding: 10px;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 0 0 13px 0 rgba(82, 63, 105, 0.05);
+}
+
+.zen-page-content {
+  background-color: $page-content-bg;
+  flex: 1;
+}
+
+.partial-padding-left {
+  padding-left: $sidenav-width;
+  transition: padding-left 0.3s;
+}
+
+.partial-sidebar-active {
+  padding-left: $partial-sidebar-width;
+  transition: padding-left 0.3s;
+}
+
+.padding-25 {
+  padding: 25px !important;
+}
+
+@media only screen and (max-width: 700px) {
+
+  .partial-padding-left {
+    padding-left: 0;
+    transition: padding-left 0.3s;
+  }
+
+  .partial-sidebar {
+    // width: 0;
+    // overflow: hidden;
+  }
+}

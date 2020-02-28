@@ -1,0 +1,63 @@
+// - Search box for Evolutility toolbar
+
+@import '../../variables';
+
+// -- search
+.evo-search{
+  position: relative;
+  top: 14px;
+  width: 200px;
+  margin-left: 10px;
+  padding: 3px 0px 2px 2px;
+  .evo-field{
+    &:not(:valid) ~ .clear-icon {
+      opacity: 0;
+    }
+  }
+  input,
+  >.btn{
+    position: relative;
+    top: -1px;
+    color: black;
+    // background-color: #0f0f0f;
+    &:hover{
+      background-color: #f6f6f6;
+    }
+  }
+  input:hover{
+    // background-color: #fbfbfb;
+  }
+}
+
+.clear-icon {
+  z-index: 3;
+  position: absolute;
+  top: 34%;
+  right: 42px;
+  color: #90a4ae;
+  cursor: pointer;
+}
+
+.search-addon-btn {
+  padding: 6px 8px;
+}
+
+@media only screen and (max-width: 700px) {
+  .evo-search{
+    margin-left: 10px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .evo-search{
+    width: 120px;
+  }
+}
+@media only screen and (max-width: 515px) {
+  .evo-search{
+    display: none;
+  }
+}
+
+.searchbox-input {
+  padding: 6px 27px 6px 6px !important;
+}

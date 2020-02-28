@@ -1,0 +1,43 @@
+/*
+  evolutility-ui-react : many
+*/
+.table {
+  border-top: solid 1px #ddd;
+  border-bottom: solid 1px #ddd;
+}
+
+.list-tags > div {
+  border: solid 1px #ddd;
+  border-radius: 8px;
+  padding: 2px 7px;
+  margin: 0 5px 0 0;
+  width: auto !important;
+  display: inline-block;
+}
+
+.evol-many-icon {
+  position: relative;
+  top: -2px;
+  margin-right: 6px !important;
+}
+
+.cf-badge {
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 20px;
+  margin-top: 7px;
+}
+
+.cf-badge:before {
+  content: "( ";
+}
+
+.cf-badge:after {
+  content: " )";
+}
+
+.lov-icon {
+  margin-right: 5px;
+}
+/*# sourceMappingURL=many.css.map */

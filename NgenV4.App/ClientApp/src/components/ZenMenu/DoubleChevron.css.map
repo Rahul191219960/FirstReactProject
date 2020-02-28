@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,mBAAmB,CAAC;EAChB,QAAQ,EAAE,QAAQ;CACrB",
+    "sources": [
+        "DoubleChevron.scss"
+    ],
+    "names": [],
+    "file": "DoubleChevron.css"
+}

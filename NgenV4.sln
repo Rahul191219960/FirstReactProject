@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NgenV4.API", "NgenV4.API\NgenV4.API.csproj", "{0EEEDA19-7A60-4E1F-A332-2BB852BB85CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NgenV4.Data", "NgenV4.Data\NgenV4.Data.csproj", "{83B7EC4B-C3F9-4052-BDFA-CF0D88643CDD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NgenV4.Domain", "Domain\NgenV4.Domain.csproj", "{0F37AB6F-B13C-40F6-9CEA-0AC852769E78}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NgenV4.Service", "NgenV4.Service\NgenV4.Service.csproj", "{80577844-A78D-476C-939B-8FBF092DB4D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NgenV4.ViewModel", "NgenV4.ViewModel\NgenV4.ViewModel.csproj", "{026FD2A2-8EC2-4F70-903C-48FFD2A96468}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NgenV4.App", "NgenV4.App\NgenV4.App.csproj", "{55E823C3-A7CC-45ED-A3D0-8565A1818720}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EEEDA19-7A60-4E1F-A332-2BB852BB85CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EEEDA19-7A60-4E1F-A332-2BB852BB85CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EEEDA19-7A60-4E1F-A332-2BB852BB85CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EEEDA19-7A60-4E1F-A332-2BB852BB85CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83B7EC4B-C3F9-4052-BDFA-CF0D88643CDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83B7EC4B-C3F9-4052-BDFA-CF0D88643CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83B7EC4B-C3F9-4052-BDFA-CF0D88643CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83B7EC4B-C3F9-4052-BDFA-CF0D88643CDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F37AB6F-B13C-40F6-9CEA-0AC852769E78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F37AB6F-B13C-40F6-9CEA-0AC852769E78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F37AB6F-B13C-40F6-9CEA-0AC852769E78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F37AB6F-B13C-40F6-9CEA-0AC852769E78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80577844-A78D-476C-939B-8FBF092DB4D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80577844-A78D-476C-939B-8FBF092DB4D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80577844-A78D-476C-939B-8FBF092DB4D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80577844-A78D-476C-939B-8FBF092DB4D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{026FD2A2-8EC2-4F70-903C-48FFD2A96468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{026FD2A2-8EC2-4F70-903C-48FFD2A96468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{026FD2A2-8EC2-4F70-903C-48FFD2A96468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{026FD2A2-8EC2-4F70-903C-48FFD2A96468}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55E823C3-A7CC-45ED-A3D0-8565A1818720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55E823C3-A7CC-45ED-A3D0-8565A1818720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55E823C3-A7CC-45ED-A3D0-8565A1818720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55E823C3-A7CC-45ED-A3D0-8565A1818720}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {572B6688-DC67-4DF6-993D-ECA33746D881}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.2.225:8080/tfs/rmscollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = NgenV4.API\\NgenV4.API.csproj
+		SccProjectName1 = NgenV4.API
+		SccLocalPath1 = NgenV4.API
+		SccProjectUniqueName2 = NgenV4.Data\\NgenV4.Data.csproj
+		SccProjectName2 = NgenV4.Data
+		SccLocalPath2 = NgenV4.Data
+		SccProjectUniqueName3 = Domain\\NgenV4.Domain.csproj
+		SccProjectName3 = Domain
+		SccLocalPath3 = Domain
+		SccProjectUniqueName4 = NgenV4.Service\\NgenV4.Service.csproj
+		SccProjectName4 = NgenV4.Service
+		SccLocalPath4 = NgenV4.Service
+		SccProjectUniqueName5 = NgenV4.ViewModel\\NgenV4.ViewModel.csproj
+		SccProjectName5 = NgenV4.ViewModel
+		SccLocalPath5 = NgenV4.ViewModel
+		SccProjectUniqueName6 = NgenV4.App\\NgenV4.App.csproj
+		SccProjectName6 = NgenV4.App
+		SccLocalPath6 = NgenV4.App
+	EndGlobalSection
+EndGlobal

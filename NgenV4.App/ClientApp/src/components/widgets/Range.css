@@ -1,0 +1,48 @@
+.evo-range {
+  display: block;
+  position: relative;
+  height: 30px;
+  width: 200px;
+}
+
+.evo-range > div {
+  position: absolute;
+  top: 5px;
+  height: 10px;
+}
+
+.evo-range .range-line {
+  height: 20px;
+  width: 100%;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+}
+
+.evo-range .range-line > div {
+  position: absolute;
+  top: 9px;
+  height: 2px;
+  width: 100%;
+  background-color: silver;
+}
+
+.evo-range .range-avg {
+  position: absolute;
+  top: 6px;
+  height: 16px;
+  width: 16px;
+  border-radius: 3px;
+  background: #0277BD;
+  border: 1px solid #01579B;
+}
+
+.evo-range .range-avg > div {
+  display: none;
+  position: relative;
+  top: 22px;
+}
+
+.evo-range .range-avg:hover > div {
+  display: block;
+}
+/*# sourceMappingURL=Range.css.map */

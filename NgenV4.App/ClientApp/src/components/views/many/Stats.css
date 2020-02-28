@@ -1,0 +1,156 @@
+.table {
+  border-top: solid 1px #ddd;
+  border-bottom: solid 1px #ddd;
+}
+
+.list-tags > div {
+  border: solid 1px #ddd;
+  border-radius: 8px;
+  padding: 2px 7px;
+  margin: 0 5px 0 0;
+  width: auto !important;
+  display: inline-block;
+}
+
+.evol-stats {
+  margin: 0 10px;
+}
+
+.evol-stats label {
+  display: block;
+}
+
+.evol-stats > div {
+  margin-bottom: 5px;
+}
+
+.evol-stats .evol-chart-holder {
+  display: block;
+  margin-left: 10px;
+  width: 490px;
+  max-width: 490px;
+}
+
+.evol-stats .cols-2 {
+  display: -webkit-box;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;
+  /* TWEENER - IE 10 */
+  /* NEW - Chrome */
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.evol-stats .cols-2 .col-1,
+.evol-stats .cols-2 .col-2 {
+  margin-right: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.evol-stats .evo-label {
+  margin-bottom: 7px;
+}
+
+.evol-stats .label-count {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+.evol-stats .field-range {
+  position: relative;
+  width: 360px;
+  margin-bottom: 20px;
+}
+
+.evol-stats .field-range > div {
+  display: inline-block;
+}
+
+.evol-stats .field-range > div:first-child {
+  text-align: right;
+}
+
+.evol-stats .field-range > div:nth-child(2) {
+  text-align: right;
+  margin: 0 10px;
+}
+
+.f-stats {
+  margin: 10px 0;
+}
+
+.f-stats:hover > label > i {
+  display: inline-block;
+}
+
+.f-stats > label {
+  display: block;
+  width: 270px;
+}
+
+.f-stats > label svg {
+  fill: #428bca;
+  cursor: pointer;
+}
+
+.f-stats > label svg:hover {
+  fill: #0D47A1;
+}
+
+.f-stats > label svg.active {
+  fill: black;
+  cursor: default;
+}
+
+.f-stats > label.sort {
+  position: absolute;
+  top: 30px;
+  right: 5px;
+}
+
+.f-stats > label > i {
+  display: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.fl-stats {
+  min-width: 300px;
+}
+
+.fl-stats > div {
+  display: inline-block;
+  margin: 0 10px 10px 10px;
+  min-width: 100px;
+}
+
+.weekupdates {
+  margin-left: 10px;
+}
+
+.stat-fn {
+  display: block;
+}
+
+.stat-label {
+  margin-bottom: 10px;
+}
+
+.stat-field {
+  line-height: 30px;
+}
+
+.stat-field > span {
+  display: inline-block;
+  color: silver;
+  width: 100px;
+  min-width: 100px;
+  margin-right: 7px;
+}
+/*# sourceMappingURL=Stats.css.map */

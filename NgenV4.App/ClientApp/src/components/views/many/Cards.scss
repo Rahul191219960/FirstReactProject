@@ -1,0 +1,96 @@
+@import "../../variables";
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap");
+
+.cf-cards-body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.cf-card-panel {
+  margin: 10px;
+  font-family: "Source Sans Pro", sans-serif !important;
+  width: auto;
+  height: fit-content;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+  max-height: 220px;
+  font-size: 0.9em !important;
+
+  .cf-panel-header-container {
+    background-color: #5d78ff;
+
+    header {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 3px 9px;
+
+      a {
+        color: white !important;
+      }
+    }
+  }
+
+  .cf-panel-data-container {
+    padding: 15px;
+  }
+}
+
+.padding-right-10 {
+  padding-right: 10px;
+}
+
+.flex-send-right {
+  margin-left: auto;
+}
+
+.cf-panel-header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  .card-actions {
+    margin-left: auto;
+  }
+}
+
+.cf-panel-body-container {
+  padding: 3px 9px;
+}
+
+.card-item-row {
+  display: flex;
+  flex-direction: row;
+
+  .card-item-row-label {
+    width: $golden-ratio-small;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .card-item-row-divider {
+    width: 2%;
+  }
+
+  .card-item-row-value {
+    padding-left: 10px;
+    width: $golden-ratio-big;
+    @include ellipsis();
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .cf-cards-body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .cf-cards-body {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

@@ -1,0 +1,214 @@
+/*
+  evolutility-ui-react : field
+*/
+.table {
+  border-top: solid 1px #ddd;
+  border-bottom: solid 1px #ddd;
+}
+
+.list-tags > div {
+  border: solid 1px #ddd;
+  border-radius: 8px;
+  padding: 2px 7px;
+  margin: 0 5px 0 0;
+  width: auto !important;
+  display: inline-block;
+}
+
+.inline {
+  display: inline;
+}
+
+.form-control {
+  padding: 6px;
+}
+
+.scroll-y {
+  overflow-y: scroll;
+}
+
+.cf-fld {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding-left: 16px;
+  margin-bottom: 12px;
+  min-width: 62px;
+}
+
+.cf-fld input, .cf-fld textarea, .cf-fld select {
+  font-size: 16px;
+}
+
+.cf-fld .evo-rdonly > img {
+  position: relative;
+  top: -2px;
+  margin-right: 3px;
+}
+
+.cf-fld > div {
+  width: 100%;
+}
+
+.cf-fld > .evo-fld-invalid {
+  margin-bottom: 0 !important;
+}
+
+.cf-fld .img-thumbnail {
+  padding: 0 !important;
+}
+
+.cf-fld input[type="time"] {
+  display: inline-block;
+  width: 130px;
+}
+
+.cf-fld textarea {
+  max-width: 100%;
+}
+
+.cf-fld .react-datepicker-wrapper {
+  display: inline;
+}
+
+.cf-fld .evo-rdonly > pre {
+  padding: 5px;
+  font-size: 12px;
+  background-color: #eceff1;
+  border: solid 1px #b0bec5;
+  min-height: 30px;
+}
+
+.evol-field-label > label {
+  color: grey !important;
+  font-weight: normal;
+  font-size: .9em;
+}
+
+.evol-field-label > label svg {
+  cursor: pointer;
+  margin: 0 5px;
+  height: 14px;
+  width: 14px;
+  fill: #428bca;
+}
+
+.evol-field-label > label:hover svg {
+  fill: #0D47A1;
+}
+
+.evol-field-label .crud-icon > svg {
+  fill: grey;
+}
+
+.evol-required,
+.evol-asterix {
+  margin-left: 3px;
+  font-weight: bold;
+}
+
+.evol-required {
+  color: #b94a48;
+}
+
+.evol-asterix {
+  color: #0D47A1;
+}
+
+.evo-rdonly {
+  min-height: 32px;
+  padding-top: 5px;
+}
+
+.evo-rdonly > a {
+  display: block;
+  white-space: nowrap;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}
+
+.lov-icon {
+  margin-right: 5px;
+}
+
+.evol-remove {
+  margin-top: 5px;
+}
+
+.evol-remove i {
+  position: relative;
+  top: 2px;
+  color: #b94a48;
+  margin-right: 5px;
+}
+
+.pixdrop {
+  margin-top: 7px;
+  width: 100%;
+  min-height: 100px;
+  border: 2px dashed silver;
+  padding: 10px;
+}
+
+.pixdrop > p {
+  font-style: italic;
+  font-size: .9em;
+}
+
+/* https://github.com/Hacker0x01/react-datepicker/issues/624 */
+.react-datepicker {
+  font-size: 0.8em;
+}
+
+.react-datepicker__header {
+  padding-top: 0.8em;
+}
+
+.react-datepicker__month {
+  margin: 0.4em;
+}
+
+.react-datepicker__day-name, .react-datepicker__day {
+  width: 1.9em;
+  line-height: 1.9em;
+  margin: 0.166em;
+}
+
+.react-datepicker__current-month {
+  font-size: 1em;
+}
+
+.react-datepicker__navigation {
+  top: 1em;
+  line-height: 1.7em;
+  border: 0.45em solid transparent;
+}
+
+.react-datepicker__navigation--previous {
+  border-right-color: #ccc;
+  left: 1em;
+}
+
+.react-datepicker__navigation--next {
+  border-left-color: #ccc;
+  right: 1em;
+}
+
+.icon-bold {
+  font-weight: 600;
+}
+
+.spntxt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=Field.css.map */

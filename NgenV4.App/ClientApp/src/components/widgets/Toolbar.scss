@@ -1,0 +1,46 @@
+/*
+  evolutility-ui-react : toolbar
+*/
+
+@import "../variables";
+
+.evo-toolbar {
+  // background-color: $base-color-primary;
+  display: flex;
+  justify-content: center;
+  z-index: 110;
+  .crud-icon > div {
+    white-space: nowrap;
+  }
+  .searchbox {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* bootstrap override */
+.dropdown-menu > li > a {
+  padding: 3px 10px;
+}
+
+.evo-filter-on {
+  background-color: #e0f2f1;
+}
+
+.evo-nav-pills {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 780px) {
+  .evo-nav-pills > li > .fakeLink > span,
+  .evo-nav-pills > li > a > span {
+    display: none;
+  }
+}
+
+.input-group {
+  position: unset;
+}

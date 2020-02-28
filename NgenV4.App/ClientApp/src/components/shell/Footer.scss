@@ -1,0 +1,31 @@
+@import '../variables';
+
+.Footer{
+	z-index: 100;
+    margin: 50px 0 0 170px;
+    padding: 20px 10px;
+    color: $color-text-footer;
+	background-color: $bgcolor-text-footer;
+	border-top: $border;
+	text-align: center;
+	> .copyright{
+		display: block;
+		margin-top: 10px;
+		font-size: .8em;
+		color: silver;
+		> span:hover {
+			color: $almostblack-color;
+		}
+	}
+	div{
+		align-content: center;
+		display: inline-block;
+		margin: 0 10px;
+	}
+}
+
+@media print {
+	.Footer {
+		page-break-inside: avoid;
+	}
+}

@@ -1,0 +1,73 @@
+.table {
+  border-top: solid 1px #ddd;
+  border-bottom: solid 1px #ddd;
+}
+
+.list-tags > div {
+  border: solid 1px #ddd;
+  border-radius: 8px;
+  padding: 2px 7px;
+  margin: 0 5px 0 0;
+  width: auto !important;
+  display: inline-block;
+}
+
+.evo-search {
+  position: relative;
+  top: 14px;
+  width: 200px;
+  margin-left: 10px;
+  padding: 3px 0px 2px 2px;
+}
+
+.evo-search .evo-field:not(:valid) ~ .clear-icon {
+  opacity: 0;
+}
+
+.evo-search input,
+.evo-search > .btn {
+  position: relative;
+  top: -1px;
+  color: black;
+}
+
+.evo-search input:hover,
+.evo-search > .btn:hover {
+  background-color: #f6f6f6;
+}
+
+.clear-icon {
+  z-index: 3;
+  position: absolute;
+  top: 34%;
+  right: 42px;
+  color: #90a4ae;
+  cursor: pointer;
+}
+
+.search-addon-btn {
+  padding: 6px 8px;
+}
+
+@media only screen and (max-width: 700px) {
+  .evo-search {
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .evo-search {
+    width: 120px;
+  }
+}
+
+@media only screen and (max-width: 515px) {
+  .evo-search {
+    display: none;
+  }
+}
+
+.searchbox-input {
+  padding: 6px 27px 6px 6px !important;
+}
+/*# sourceMappingURL=SearchBox.css.map */

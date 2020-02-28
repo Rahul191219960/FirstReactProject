@@ -1,0 +1,47 @@
+@import '../variables';
+
+.panel-heading { // panel-heading from Bootstrap
+    position: relative;
+    > .panel-title { // panel-title from Bootstrap
+      display: inline-block;
+      font-weight: 400;
+      font-size: 1.2em;
+    }
+  //  >.evol-subtitle{
+  //    display: inline-block;
+  //    margin-left:.4em;
+  //  }
+}
+
+.panel{
+  border-radius: 2px !important;
+  display: flex;
+  flex-direction: column;
+  div.panel-header,
+  div.panel-footer {
+    background-color: $bgcolor-panel-footer;
+  }
+}
+
+.footer-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-text{
+  display: flex;
+  align-items: center;
+  padding: 7px 10px;
+}
+
+.evo-panel-help{
+    margin-top:5px;
+}
+
+.panel-default > .panel-heading {
+  background-color: $bgcolor-panel-header !important;
+}
+
+.push-down {
+  margin-top: auto;
+}

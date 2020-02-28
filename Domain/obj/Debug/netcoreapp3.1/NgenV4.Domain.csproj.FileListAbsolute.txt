@@ -1,0 +1,8 @@
+D:\Projects\ngenv4\Dev\Domain\bin\Debug\netcoreapp3.1\NgenV4.Domain.deps.json
+D:\Projects\ngenv4\Dev\Domain\bin\Debug\netcoreapp3.1\NgenV4.Domain.dll
+D:\Projects\ngenv4\Dev\Domain\bin\Debug\netcoreapp3.1\NgenV4.Domain.pdb
+D:\Projects\ngenv4\Dev\Domain\obj\Debug\netcoreapp3.1\NgenV4.Domain.csprojAssemblyReference.cache
+D:\Projects\ngenv4\Dev\Domain\obj\Debug\netcoreapp3.1\NgenV4.Domain.AssemblyInfoInputs.cache
+D:\Projects\ngenv4\Dev\Domain\obj\Debug\netcoreapp3.1\NgenV4.Domain.AssemblyInfo.cs
+D:\Projects\ngenv4\Dev\Domain\obj\Debug\netcoreapp3.1\NgenV4.Domain.dll
+D:\Projects\ngenv4\Dev\Domain\obj\Debug\netcoreapp3.1\NgenV4.Domain.pdb

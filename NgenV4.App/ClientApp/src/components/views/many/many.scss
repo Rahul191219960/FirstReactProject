@@ -1,0 +1,21 @@
+/*
+  evolutility-ui-react : many
+*/
+@import '../../variables';
+
+.evol-many-icon{
+	position: relative;
+	top:-2px;
+	margin-right: 6px !important;
+}
+
+.cf-badge{
+	margin-left: 10px;
+	font-size: 0.8em;
+	font-weight: 400;
+	&:before{content:"( "}
+	&:after{content:" )"}
+}
+.lov-icon {
+	margin-right: 5px;
+}

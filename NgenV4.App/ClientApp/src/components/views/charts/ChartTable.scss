@@ -1,0 +1,22 @@
+
+@import '../../variables';
+
+.chartTable{
+	padding: 0 10px;
+	.alignR {
+	  text-align: right;
+	}
+	.table{
+		text-align: left;
+		th{
+			cursor: pointer;
+		}
+		th:nth-child(2){
+			width: 90px;
+		}
+	}
+	.footer,
+	.footer:hover {
+		background-color: $bgcolor-header;
+	}
+}
