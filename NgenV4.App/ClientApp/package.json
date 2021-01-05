@@ -20,7 +20,7 @@
     "@nivo/bar": "^0.59.2",
     "@nivo/pie": "^0.59.1",
     "@opuscapita/react-dates": "^0.5.11",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "bootstrap": "^4.4.1",
     "libphonenumber-js": "^1.7.31",
     "moment": "^2.24.0",
